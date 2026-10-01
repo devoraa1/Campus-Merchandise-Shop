@@ -1,9 +1,9 @@
-import { ScrollView, View, Text, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 const orders = [
-  { id: '1001', item: 'Campus Hoodie', status: 'Delivered' },
-  { id: '1002', item: 'Campus Cap', status: 'Shipped' },
-  { id: '1003', item: 'Campus Mug', status: 'Processing' },
+  { id: '1001', item: 'COM Department T-shirt', status: 'Delivered' },
+  { id: '1002', item: 'CCIS ID Lace/Lanyard', status: 'Shipped' },
+  { id: '1003', item: 'CEA Calculator', status: 'Processing' },
 ];
 
 export default function Order() {
