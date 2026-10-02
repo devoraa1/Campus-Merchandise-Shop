@@ -1,9 +1,16 @@
 import { router } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 
 export default function Home() {
   return (
     <View style={styles.container}>
+
+      <Image
+        source={require('../../../assets/_nwssu.jpeg')}
+        style={styles.Logoimage}
+        resizeMode="cover"
+      />
+
       <Text style={styles.title}>Campus Merch Shop</Text>
 
       <Text style={styles.subtitle}>
@@ -32,11 +39,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
   },
-
+  Logoimage: {
+    width: 200,
+    height: 200,
+    borderRadius: 100,
+    marginBottom: 20,
+    transform: [{ translateY: -90 }],
+  },
   title: {
     fontSize: 35,
     fontWeight: 'bold',
     marginBottom: 8,
+    transform: [{ translateY: -70 }],
   },
 
   subtitle: {
@@ -44,6 +58,7 @@ const styles = StyleSheet.create({
     color: '#555555',
     textAlign: 'center',
     marginBottom: 8,
+    transform: [{ translateY: -70 }],
   },
 
   shopButton: {
@@ -52,6 +67,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 25,
     borderRadius: 8,
     marginTop: 20,
+    transform: [{ translateY: -70 }],
   },
 
   shopButtonText: {
