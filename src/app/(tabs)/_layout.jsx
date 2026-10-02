@@ -24,20 +24,20 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="order"
-        options={{
-          title: 'Order',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="receipt" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
         name="basket"
         options={{
           title: 'Basket',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="basket" size={size} color={color} />
+          ),
+        }}
+      />
+       <Tabs.Screen
+        name="order"
+        options={{
+          title: 'Order',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="receipt" size={size} color={color} />
           ),
         }}
       />
