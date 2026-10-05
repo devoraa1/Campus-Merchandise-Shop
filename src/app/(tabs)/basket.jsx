@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
   },
 
   quantityButton: {
-    backgroundColor: "#4dad4d",
+    backgroundColor: "#436443",
     width: 32,
     height: 32,
     borderRadius: 6,
@@ -177,7 +177,7 @@ const styles = StyleSheet.create({
   },
 
   removeButton: {
-    backgroundColor: "#4dad4d",
+    backgroundColor: "#436443",
     paddingVertical: 12,
     borderRadius: 6,
     marginTop: 20,

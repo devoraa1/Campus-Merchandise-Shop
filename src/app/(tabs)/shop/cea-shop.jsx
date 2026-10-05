@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   },
 
   notification: {
-    backgroundColor: "#48a345",
+    backgroundColor: "#436443",
     padding: 12,
     marginHorizontal: 12,
     marginTop: 10,
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: "#48a345",
+    backgroundColor: "#436443",
     paddingVertical: 10,
     borderRadius: 6,
     marginTop: 10,
